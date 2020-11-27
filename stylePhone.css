@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#table {
+    width: 500px;
+    height: 200px;
+    background: white;
+    padding: 5px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#imagetable {
+    background: white;
+    padding: 5px;
+    float: left;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+#characteristictable {
+    background: white;
+    padding: 5px;
+    float: left;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+.wols {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.wols:hover {
+    color: #a01d26;
+}
