@@ -162,6 +162,63 @@ hr {
 .wols:hover {
     color: #20252a;
 }
+
+.wrapper {
+    width:50px;
+    height:50px;
+    margin: 0 auto;
+    /*border:1px solid red;*/
+    position: relative;
+
+}
+
+.wrapper:hover .middle {
+    width:30px;
+    height:20px;
+    top:24%;
+    left:27%;
+    border-radius: 50%;
+    background-color:black;
+    opacity:0.3;
+}
+
+.wrapper:hover .top {
+    -webkit-transform:rotate(45deg);
+    top:40%;border-radius:10px;background-color:white;
+}
+
+.wrapper:hover .bottom{
+    -webkit-transform:rotate(-45deg);
+    top:40%;border-radius:10px;background-color:white;
+}
+
+.bar {
+    width:30px;
+    height:5px;
+    border:2px solid black;
+    position: absolute;top:0;right:0;
+    border-radius:10px;
+}
+
+.top {
+    left:15%;
+    top:20%;
+    -webkit-transition:all 0.5s;
+}
+
+.middle {
+    left:15%;
+    top:40%;
+    -webkit-transition:all 0.5s;
+}
+
+.bottom {
+    left:15%;
+    top:60%;
+    -webkit-transition:all 0.5s;
+}
+
+
 /*#ffccdce4;*/
 /*background: #2c3e50;*/
 /*padding: 2em 10%;*/
@@ -180,3 +237,5 @@ hr {
 /*.bookmark, .basket {*/
 /*    float: right;*/
 /*}*/
+
+
