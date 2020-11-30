@@ -12,6 +12,11 @@
 <body>
 <div class="container">
     <header>
+        <div class="wrapper">
+            <div class="top bar"></div>
+            <div class="middle bar"></div>
+            <div class="bottom bar"></div>
+        </div>
 <!--        <div class="header-one-title">-->
 <!--            <div class="menu-basket-favorites-account">-->
 <!--                <a class="wols" href="#" target="_blank">Избранное</a>-->
@@ -62,27 +67,32 @@
         </div>
         </div>
     </header>
-    <div class="ipad">
+    <div class="container-tech">
+        <div class="ipad">
+            <div id="table"></div><div id="imagetable"></div>
+            <div id="ipadgold"></div><div id="imagetableipadgold"></div>
+            <div id="ipadgray"></div><div id="imagetableipadgrey"></div>
+            <div id="ipadwhite"></div><div id="imagetableipadwhite"></div>
+        </div>
+        <div class="macbook">
+            <div id="tableone"></div><div id="imagetableone"></div>
+            <div id="macgrey"></div><div id="imgmacgrey"></div>
+            <div id="macmini"></div><div id="imgmacmini"></div>
+            <div id="imac"></div><div id="imgimac"></div>
+        </div>
+        <div class="iphone">
+            <div id="tablethree"></div><div id="imagetablethree"></div>
+            <div id="tablefour"></div><div id="imagetablefour"></div>
+            <div id="tablefife"></div><div id="imagetablefife"></div>
+            <div id="tablesix"></div><div id="imagetablesix"></div>
+        </div>
+        <div class="watch">
+            <div id="tabletwo"></div><div id="imagetabletwo"></div>
+            <div id="watchblue"></div><div id="imgwatchblue"></div>
+            <div id="watchred"></div><div id="imgwatchred"></div>
+            <div id="watchwhite"></div><div id="imgwatchwhite"></div>
+        </div>
     </div>
-  <div id="table"></div><div id="imagetable"></div>
-    <div id="tableone"></div><div id="imagetableone"></div>
-    <div id="tabletwo"></div><div id="imagetabletwo"></div>
-    <div id="tablethree"></div><div id="imagetablethree"></div>
-    <div id="tablefour"></div><div id="imagetablefour"></div>
-    <div id="tablefife"></div><div id="imagetablefife"></div>
-    <div id="tablesix"></div><div id="imagetablesix"></div>
-    <div id="ipadgold"></div><div id="imagetableipadgold"></div>
-    <div id="ipadgray"></div><div id="imagetableipadgrey"></div>
-    <div id="ipadwhite"></div><div id="imagetableipadwhite"></div>
-
-    <div id="macgrey"></div><div id="imgmacgrey"></div>
-    <div id="macmini"></div><div id="imgmacmini"></div>
-    <div id="imac"></div><div id="imgimac"></div>
-
-    <div id="watchblue"></div><div id="imgwatchblue"></div>
-    <div id="watchred"></div><div id="imgwatchred"></div>
-    <div id="watchwhite"></div><div id="imgwatchwhite"></div>
-    
   <script src="/js/jquery.dataTables.min.js"></script>
   <script src="tableconversions.js"></script>
 </div>
