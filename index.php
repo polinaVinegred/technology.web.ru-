@@ -10,24 +10,25 @@
     <link rel="stylesheet"  href="style.css" />
 </head>
 <body>
+<div class="container">
     <header>
-        <div class="header-one-title">
-            <div class="menu-basket-favorites-account">
-                <a class="wols" href="#" target="_blank"><img src="favorites.png" title="favorites" width="35" height="35"/></a>
-                <a class="wols" href="basket.php" target="_blank"><img src="basket.png" title="basket" width="35" height="35"/></a>
-                <a class="wols" href="#" target="_blank"><img src="account.png" title="kontakt" width="35" height="35"/></a>
-            </div>
+<!--        <div class="header-one-title">-->
+<!--            <div class="menu-basket-favorites-account">-->
+<!--                <a class="wols" href="#" target="_blank">Избранное</a>-->
+<!--                <a class="wols" href="basket.php" target="_blank">Корзина</a>-->
+<!--                <a class="wols" href="#" target="_blank">Аккаунт</a>-->
+<!--            </div>-->
             <div class="logo">
-                <h1>TECHNOLOGY</h1>
+                <h1>Technologies around us.</h1>
             </div>
-            <div class="menu-search-and-contact">
-                <a class="wols" href="test.php" target="_blank"><img src="kontakt.png" title="kontakt" width="35" height="35"/></a>
-                <a class="wols" href="favourites.php"><img src="search.png" title="search" width="35" height="35"/></a>
-            </div>
-        </div>
+<!--            <div class="menu-search-and-contact">-->
+<!--                <a class="wols" href="test.php" target="_blank">Контакты</a>-->
+<!--                <a class="wols" href="favourites.php">Поиск</a>-->
+<!--            </div>-->
+<!--        </div>-->
 
 
-        <div class="banner">
+        <div class="menu-container">
             <div class="header-two-title">
                 <div class="menu">
                 <ul id="myMenu">
@@ -35,39 +36,34 @@
                     <li><a class="ultest" href="iphone.php" target="_blank">Iphone</a></li>
                     <li><a class="ultest" href="watch.php" target="_blank">Watch</a></li>
                     <li><a class="ultest" href="ipad.php" target="_blank">Ipad</a></li>
-                    <li><a class="ultest" href="goods.php" target="_blank">О товарах</a></li>
-                    <li><a class="ultest" href="sale.php" target="_blank">Скидки</a></li>
+
                 </ul>
                 </div>
             </div>
-
-            <div id="boxsearch">
-                <form class="container-1">
-                    <span class="icon"><i class="fa fa-search"></i></span>
-                    <input type="search" id="search" onkeyup="myFunction()" placeholder="Поиск..." />
-                </form>
+            <hr>
+            <div class="header-three-title">
+                <div class="menu">
+                    <ul id="myMenu">
+                        <li><a class="uitest" href="goods.php" target="_blank">About goods</a></li>
+                        <li><a class="uitest" href="sale.php" target="_blank">Discounts</a></li>
+                    </ul>
+                </div>
             </div>
+
+<!---->
+<!--            <div id="boxsearch">-->
+<!--                <form class="container-1">-->
+<!--                    <span class="icon"><i class="fa fa-search"></i></span>-->
+<!--                    <input type="search" id="search" onkeyup="myFunction()" placeholder="Поиск..." />-->
+<!--                </form>-->
+<!--            </div>-->
+        <div class="banner">
+        <img src="pictures/phonefone.jpg" title="banner" width="100%">
+        </div>
         </div>
     </header>
-
-<!--        <div id="menu"></div>-->
-<!--        <div id="slideImage"></div>-->
-
-<!--    <br />-->
-<!--    <button id="connect">Нажмите</button>-->
-<!--    <br /><br />-->
-<!--    <br />-->
-<!--    <button id="testConnect">Остатки товаров</button>-->
-<!--    <br /><br />-->
-<!--    <button id="testConnect1">Data Tables</button>-->
-<!--    <br />-->
-<!--  <button id="testRestoreOne">Apple iphone 12 pro max 512 gb gold</button>-->
-<!--    <button id="testRestoreTwo">Apple iphone SE 256 gb red</button>-->
-<!--    <br /><br />-->
-<!--    <button id="testRestoreThree">Apple ipad Air Wi-Fi + Cellular 64 gb blue sky</button>-->
-<!--    <br /><br />-->
-<!--    <button id="testRestoreFour">Apple MacBook Air 13 Quad Core 15 512 gb gold</button>-->
-<!--    <br /><br />-->
+    <div class="ipad">
+    </div>
   <div id="table"></div><div id="imagetable"></div>
     <div id="tableone"></div><div id="imagetableone"></div>
     <div id="tabletwo"></div><div id="imagetabletwo"></div>
@@ -89,6 +85,7 @@
     
   <script src="/js/jquery.dataTables.min.js"></script>
   <script src="tableconversions.js"></script>
+</div>
 </body>
 </html>
 
