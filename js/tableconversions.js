@@ -24,7 +24,7 @@ $(document).ready(function() {
         var jsonObj = $.parseJSON(data);
         var html = '';
         $.each(jsonObj, function (key, value) {
-            html += '<img src="' + value["bigURL"] + '" alt="apple iphone 12 pro max 512gb gold" width="450" height="600">';
+            html += '<img src="' + value["bigURL"] + '" alt="apple iphone 12 pro max 512gb gold">';
         });
         $('#imagetable').html(html);
     });
