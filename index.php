@@ -8,29 +8,28 @@
     <link rel="stylesheet"  href="css/style.css" />
 </head>
 <body>
-<div class="container">
+<input id="toggle" type="checkbox">
+<label class="toggle-container" for="toggle">
+    <span class="button button-toggle"></span>
+</label>
+
+<!-- Навигация -->
+<nav class="nav">
+    <a rel="nofollow" rel="noreferrer" class="nav-item" href="" target="_blank">Избранное</a>
+    <a rel="nofollow" rel="noreferrer" class="nav-item" href="/php/basket.php" target="_blank">Корзина</a>
+    <a rel="nofollow" rel="noreferrer" class="nav-item" href="" target="_blank">Аккаунт</a>
+    <a rel="nofollow" rel="noreferrer" class="nav-item" href="/php/test.php" target="_blank">Контакты</a>
+    <a rel="nofollow" rel="noreferrer" class="nav-item" href="/php/favourites.php" target="_blank">Поиск</a>
+</nav>
+<div class="containner">
     <header>
-        <div class="wrapper">
-            <div class="top bar"></div>
-            <div class="middle bar"></div>
-            <div class="bottom bar"></div>
-        </div>
         <div class="header-one-title">
-<!--            <div class="menu-basket-favorites-account">-->
-<!--                <a class="wols" href="#" target="_blank">Избранное</a>-->
-<!--                <a class="wols" href="basket.php" target="_blank">Корзина</a>-->
-<!--                <a class="wols" href="#" target="_blank">Аккаунт</a>-->
-<!--            </div>-->
             <div class="logo">
                 <h1>Technologies around us.</h1>
             </div>
-<!--            <div class="menu-search-and-contact">-->
-<!--                <a class="wols" href="test.php" target="_blank">Контакты</a>-->
-<!--                <a class="wols" href="favourites.php">Поиск</a>-->
-<!--            </div>-->
         </div>
 
-        <div class="menu-container">
+        <div class="menucontainer">
             <div class="header-two-title">
                 <div class="menu">
                 <ul id="myMenu">
@@ -53,7 +52,7 @@
 
 
             <div id="boxsearch">
-                <form class="container-1">
+                <form class="container1">
                     <span class="icon"><i class="fa fa-search"></i></span>
                     <input type="search" id="search" onkeyup="myFunction()" placeholder="Поиск..." />
                 </form>
@@ -63,7 +62,7 @@
         </div>
         </div>
     </header>
-    <div class="container-tech">
+    <div class="containertech">
         <div class="ipad">
             <div id="table"></div><div id="imagetable"></div>
             <div id="ipadgold"></div><div id="imagetableipadgold"></div>
@@ -91,5 +90,6 @@
     </div>
   <script src="/js/tableconversions.js"></script>
 </div>
+
 </body>
 </html>
