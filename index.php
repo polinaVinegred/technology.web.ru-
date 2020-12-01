@@ -1,13 +1,11 @@
-<?php require_once 'connectionjson.php'; ?>
+<?php require_once 'php/connectionjson.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8" />
     <title>technology.com</title>
-    <script  src="/js/jquery.min.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/js/jquery.dataTables.min.css" />
-    <link rel="stylesheet"  href="style.css" />
+    <script  src="/jquery/jquery.js"></script>
+    <link rel="stylesheet"  href="css/style.css" />
 </head>
 <body>
 <div class="container">
@@ -17,7 +15,7 @@
             <div class="middle bar"></div>
             <div class="bottom bar"></div>
         </div>
-<!--        <div class="header-one-title">-->
+        <div class="header-one-title">
 <!--            <div class="menu-basket-favorites-account">-->
 <!--                <a class="wols" href="#" target="_blank">Избранное</a>-->
 <!--                <a class="wols" href="basket.php" target="_blank">Корзина</a>-->
@@ -30,18 +28,16 @@
 <!--                <a class="wols" href="test.php" target="_blank">Контакты</a>-->
 <!--                <a class="wols" href="favourites.php">Поиск</a>-->
 <!--            </div>-->
-<!--        </div>-->
-
+        </div>
 
         <div class="menu-container">
             <div class="header-two-title">
                 <div class="menu">
                 <ul id="myMenu">
-                    <li><a class="ultest" href="macBook.php" target="_blank">MacBook</a></li>
-                    <li><a class="ultest" href="iphone.php" target="_blank">Iphone</a></li>
-                    <li><a class="ultest" href="watch.php" target="_blank">Watch</a></li>
-                    <li><a class="ultest" href="ipad.php" target="_blank">Ipad</a></li>
-
+                    <li><a class="ultest" href="php/macBook.php" target="_blank">MacBook</a></li>
+                    <li><a class="ultest" href="php/iphone.php" target="_blank">Iphone</a></li>
+                    <li><a class="ultest" href="php/watch.php" target="_blank">Watch</a></li>
+                    <li><a class="ultest" href="php/ipad.php" target="_blank">Ipad</a></li>
                 </ul>
                 </div>
             </div>
@@ -49,21 +45,21 @@
             <div class="header-three-title">
                 <div class="menu">
                     <ul id="myMenu">
-                        <li><a class="uitest" href="goods.php" target="_blank">About goods</a></li>
-                        <li><a class="uitest" href="sale.php" target="_blank">Discounts</a></li>
+                        <li><a class="uitest" href="php/goods.php" target="_blank">About goods</a></li>
+                        <li><a class="uitest" href="php/sale.php" target="_blank">Discounts</a></li>
                     </ul>
                 </div>
             </div>
 
-<!---->
-<!--            <div id="boxsearch">-->
-<!--                <form class="container-1">-->
-<!--                    <span class="icon"><i class="fa fa-search"></i></span>-->
-<!--                    <input type="search" id="search" onkeyup="myFunction()" placeholder="Поиск..." />-->
-<!--                </form>-->
-<!--            </div>-->
+
+            <div id="boxsearch">
+                <form class="container-1">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="search" id="search" onkeyup="myFunction()" placeholder="Поиск..." />
+                </form>
+            </div>
         <div class="banner">
-        <img src="pictures/phonefone.jpg" title="banner" width="100%">
+            <img src="pictures/phonefone.jpg" title="banner" width="100%">
         </div>
         </div>
     </header>
@@ -93,8 +89,7 @@
             <div id="watchwhite"></div><div id="imgwatchwhite"></div>
         </div>
     </div>
-  <script src="/js/jquery.dataTables.min.js"></script>
-  <script src="tableconversions.js"></script>
+  <script src="/js/tableconversions.js"></script>
 </div>
 </body>
 </html>

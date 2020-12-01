@@ -1,5 +1,5 @@
 <?php
- require_once 'GoodsAPI.php';
+ require_once 'php/GoodsAPI.php';
 //подключение к БД
 
 if (isset($_GET['json'])) {

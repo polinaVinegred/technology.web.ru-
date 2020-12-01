@@ -2,11 +2,11 @@
 $(document).ready(function() {
 
     // // при нажатии на кнопку происходит подключение ко второй странице сайта и выводится содержимое json
-    //  $("#connect").click(function () {
-    //      $.get("//130.193.59.146/index.php?&json", function (data) {
-    //          alert("Data: " + data);
-    //      });
-    //  });
+     $("#connect").click(function () {
+         $.get("//130.193.59.146/index.php?&json", function (data) {
+             alert("Data: " + data);
+         });
+     });
     // при нажатии на кнопку происходит подключение ко второй странице сайта и выводится json преобразованный в таблицу
 
 

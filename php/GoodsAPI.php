@@ -22,8 +22,8 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
- where 
+        on prices.goodsid = goods.id
+ where
     id = 2";
         return $query;
     }
@@ -42,7 +42,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 3";
         return $query;
@@ -73,7 +73,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 4";
         return $query;
@@ -93,7 +93,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 5";
         return $query;
@@ -113,7 +113,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 8";
         return $query;
@@ -133,7 +133,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 9";
         return $query;
@@ -152,7 +152,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 10";
         return $query;
@@ -171,7 +171,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 11";
         return $query;
@@ -191,7 +191,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 12";
         return $query;
@@ -210,7 +210,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 13";
         return $query;
@@ -229,7 +229,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 14";
         return $query;
@@ -248,7 +248,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 15";
         return $query;
@@ -267,7 +267,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 16";
         return $query;
@@ -286,7 +286,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 17";
         return $query;
@@ -305,7 +305,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 18";
         return $query;
@@ -324,7 +324,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 19";
         return $query;
@@ -343,7 +343,7 @@ from
 from
     goods as goods
         left join prices as prices
-        on prices.goodsid = goods.id 
+        on prices.goodsid = goods.id
  where
     id = 20";
         return $query;

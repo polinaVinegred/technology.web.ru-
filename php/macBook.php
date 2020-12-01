@@ -1,21 +1,19 @@
-<?php require_once 'connectionjson.php'; ?>
+<?php require_once 'php/connectionjson.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8" />
     <title>macBook</title>
-    <script  src="/js/jquery.min.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/js/jquery.dataTables.min.css" />
-    <link rel="stylesheet"  href="macBookstyle.css" />
+    <script  src="/jquery/jquery.js"></script>
+    <link rel="stylesheet"  href="css/macBookstyle.css" />
 </head>
 <body>
 <header>
     <div class="header-one-title">
         <h1 class="logo">CrazyTechnology.com
             <div class="contactMenu">
-                <a class="wols" href="favourites.php">избранное</a> <br/>
-                <a class="wols" href="basket.php" target="_blank">корзина</a>
+                <a class="wols" href="php/favourites.php">избранное</a> <br/>
+                <a class="wols" href="php/basket.php" target="_blank">корзина</a>
             </div>
         </h1>
     </div>
@@ -28,12 +26,12 @@
                         <input type="search" id="search" onkeyup="myFunction()" placeholder="Поиск..." />
                     </form>
                 </div>
-                <li><a class="ultest" href="macBook.php" target="_blank">MacBook</a></li>
-                <li><a class="ultest" href="iphone.php" target="_blank">Iphone</a></li>
-                <li><a class="ultest" href="watch.php" target="_blank">Watch</a></li>
-                <li><a class="ultest" href="ipad.php" target="_blank">Ipad</a></li>
-                <li><a class="ultest" href="goods.php" target="_blank">О товарах</a></li>
-                <li><a class="ultest" href="sale.php" target="_blank">Скидки</a></li>
+                <li><a class="ultest" href="php/macBook.php" target="_blank">MacBook</a></li>
+                <li><a class="ultest" href="php/iphone.php" target="_blank">Iphone</a></li>
+                <li><a class="ultest" href="php/watch.php" target="_blank">Watch</a></li>
+                <li><a class="ultest" href="php/ipad.php" target="_blank">Ipad</a></li>
+                <li><a class="ultest" href="php/goods.php" target="_blank">О товарах</a></li>
+                <li><a class="ultest" href="php/sale.php" target="_blank">Скидки</a></li>
             </ul>
         </div>
     </div>
@@ -46,7 +44,6 @@
     <div id="macmini"></div><div id="imgmacmini"></div>
     <div id="imac"></div><div id="imgimac"></div>
 </div>
-    <script src="inputmacBook.js"></script>
-    <script src="/js/jquery.dataTables.min.js"></script>
+    <script src="js/inputmacBook.js"></script>
 </body>
 </html>

@@ -1,11 +1,10 @@
-<?php require_once 'connectionPhone.php'; ?>
+<?php require_once 'php/connectionPhone.php'; ?>
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8" />
     <title>onePhone</title>
-    <script  src="/js/jquery.min.js"></script>
-    <link rel="stylesheet" href="/js/jquery.dataTables.min.css" />
-    <link rel="stylesheet"  href="stylePhone.css" />
+    <script  src="/jquery/jquery.js"></script>
+    <link rel="stylesheet"  href="css/stylePhone.css" />
 </head>
 <body>
 <button id="button"> lol</button>

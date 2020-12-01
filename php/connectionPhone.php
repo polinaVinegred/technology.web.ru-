@@ -1,6 +1,6 @@
 <?php
 
-require_once 'GoodsAPI.php';
+require_once 'php/GoodsAPI.php';
 if (isset($_GET['iphone'])) {
     echo JsonRoutines::JsonOutput(GoodsAPI::GetCharacteristicQuery());
     die();
