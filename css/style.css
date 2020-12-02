@@ -6,14 +6,20 @@
     padding: 0;
 }
 
-body {
-    background: #d3e3fc;
+body, html {
+    height: 100%;
+}
+
+.dropdown-menu{
+    width: 6%;
+    min-height: 100%;
+    position: relative;
+    background-color: black;
 }
 
 .containner {
-    width: 90%;
+    width: 100%;
     background-color: #ffffff;
-    margin: 0 auto;
     height: 100%;
 }
 .logo {
@@ -368,4 +374,3 @@ a {
     transform: translateY(-50%) scaleY(5);
     transition: 0.5s;
 }
-
