@@ -8,27 +8,26 @@
     <link rel="stylesheet"  href="css/style.css" />
 </head>
 <body>
-<div class="containner">
+<div class="containerwhole">
+    <div class="dropdown-menu">
+    <input id="toggle" type="checkbox">
+    <label class="toggle-container" for="toggle">
+        <span class="button button-toggle"></span>
+    </label>
+    <!-- Навигация -->
+    <nav class="nav">
+        <a rel="nofollow" rel="noreferrer" class="nav-item" href="" target="_blank">Избранное</a>
+        <a rel="nofollow" rel="noreferrer" class="nav-item" href="/php/basket.php" target="_blank">Корзина</a>
+        <a rel="nofollow" rel="noreferrer" class="nav-item" href="" target="_blank">Аккаунт</a>
+        <a rel="nofollow" rel="noreferrer" class="nav-item" href="/php/test.php" target="_blank">Контакты</a>
+    </nav>
+    </div>
+    <div class="containner">
     <header>
-        <div class="dropdown-menu">
-            <input id="toggle" type="checkbox">
-            <label class="toggle-container" for="toggle">
-                <span class="button button-toggle"></span>
-            </label>
 
-            <!-- Навигация -->
-            <nav class="nav">
-                <a rel="nofollow" rel="noreferrer" class="nav-item" href="" target="_blank">Избранное</a>
-                <a rel="nofollow" rel="noreferrer" class="nav-item" href="/php/basket.php" target="_blank">Корзина</a>
-                <a rel="nofollow" rel="noreferrer" class="nav-item" href="" target="_blank">Аккаунт</a>
-                <a rel="nofollow" rel="noreferrer" class="nav-item" href="/php/test.php" target="_blank">Контакты</a>
-            </nav>
-        </div>
-        <div class="header-one-title">
             <div class="logo">
                 <h1>Technologies around us.</h1>
             </div>
-        </div>
 
         <div class="menucontainer">
             <div class="header-two-title">
@@ -50,7 +49,6 @@
                     </ul>
                 </div>
             </div>
-            <a href="indextest.php">love</a>
 
             <div id="boxsearch">
                 <form class="container1">
@@ -88,6 +86,6 @@
     </div>
   <script src="/js/tableconversions.js"></script>
 </div>
-
+</div>
 </body>
 </html>
